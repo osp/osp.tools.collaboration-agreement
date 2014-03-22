@@ -1,0 +1,21 @@
+@page {
+    size: 148.5mm 210mm;
+    margin: 12mm 12mm 15mm 12mm;
+} 
+
+html {
+    width: 148.5mm;
+}
+
+* {
+    font-family: Karla !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+}
+
+p {
+    orphans: 3;
+    widows: 3;
+}
